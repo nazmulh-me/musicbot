@@ -1,0 +1,17 @@
+{
+  "name": "ai_music_bot",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "discord.js": "^14.21.0",
+    "lavalink-client": "^2.5.8",
+    "nodejs-whisper": "^0.2.9"
+  }
+}
